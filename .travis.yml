@@ -7,13 +7,13 @@ script:
   - npm t
   - cd ./docs
   - yarn
-  - npm link cra-universal
+  - npm link cra-universal-apollo
   - npm t
   - npm run build
   - npm run crau:build
   - cd ../templates
   - yarn
-  - npm link cra-universal
+  - npm link cra-universal-apollo
   - npm t
   - npm run build
   - npm run crau:build
